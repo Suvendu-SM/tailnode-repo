@@ -1,4 +1,4 @@
-# This a Todo Application
+# This is a Todo Application
 
 ## Available Scripts
 
