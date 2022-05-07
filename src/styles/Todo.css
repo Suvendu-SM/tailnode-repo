@@ -1,0 +1,69 @@
+.app-conatiner{
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.subcontainer-wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  
+}
+
+.todo-conatiner{
+   width: 45%;
+   text-align: center;
+   background-color: rgb(220, 220, 220);
+}
+
+
+.add-todo >input{
+    width: 90%;
+    height: 35px;
+    font-size: medium;
+    border-radius: 5px;
+}
+
+.item{
+    font-size:large;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow-x: hidden;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;    
+}
+
+.completelist-container{
+    max-height: 320px;
+    overflow-y: scroll;
+    margin-top: 5px;
+}
+
+.todolist-container{
+    max-height: 275px;
+    overflow-y: scroll;
+    margin-top: 5px;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* make scrollbar transparent */
+}
+
+.reset-btn{
+  height: 50px;
+  width: 5%;
+  background-color: rgb(255, 140, 140);
+  overflow:hidden;
+ }
